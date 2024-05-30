@@ -21,17 +21,12 @@ The 15-Puzzle problem is a classic sliding puzzle game where 15 tiles numbered f
 
 In this project, we employ the NN-WUNN heuristic, a neural network-based approach, to estimate the distance between a given state and the goal state. This heuristic guides the IDA* search algorithm to efficiently explore the state space and find optimal or near-optimal solutions.
 
-## Contents
-
-- `solver.py`: Python script containing implementations of puzzle representation functions, neural network training, heuristic calculation, IDA* search algorithm, and performance evaluation.
-- `requirements.txt`: List of Python dependencies required to run the code.
-- `LICENSE`: License information for the code.
-- `README.md`: This README file providing an overview of the repository.
-
 ## Setup and Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone 
-
+   git clone https://github.com/OShagHennessy/Reproducibility_Assignment.git
+   
+## Contribution by
+Lebohang Mosia
