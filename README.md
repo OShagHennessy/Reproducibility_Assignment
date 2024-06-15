@@ -16,8 +16,9 @@ Neural Networks
 Search Algorithm`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
+TrainingofNNs["`Training of NNs`"]
 
-FirstBlock --> Algorithm3 --> Algorithm4 --> TrainingofNNs[`"Training of NNs`"]
+FirstBlock --> Algorithm3 --> Algorithm4 --> TrainingofNNs
 ```
 ## Prerequisites
 
