@@ -17,10 +17,10 @@ Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
 
+Search Algorithm (IDA*) --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 subgraph **Set-Up**
 15-PuzzleEnvironment --> Neural Networks --> Search Algorithm (IDA*)
 end
-Search Algorithm (IDA*) --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 ```
 ## Prerequisites
 
