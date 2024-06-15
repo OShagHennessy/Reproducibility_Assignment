@@ -17,8 +17,6 @@ Search Algorithm`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 FirstBlock-->Algorithm3-->Algorithm4
-
-graph TD;
 KorTasks-->Algorithm4
 ```
 ## Prerequisites
