@@ -8,9 +8,14 @@ This repository contains code for solving the 15-Puzzle problem using the Neural
 ## How this works
 A flow chart depicting the process.
 ```mermaid
-graph TD;
+graph LR;
 
-A-->H;
+FirstBlock["`**Set-Up**
+15-PuzzleEnvironment
+Neural Networks
+Search Algorithm`"]
+
+
 ```
 ## Prerequisites
 
