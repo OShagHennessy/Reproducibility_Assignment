@@ -16,8 +16,10 @@ Neural Networks
 Search Algorithm`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
+Output
+Training of NNs
 FirstBlock-->Algorithm3-->Algorithm4-->Training of NNs
-Training of NNs-->KorTasks-->Algorithm4
+KorTasks-->Algorithm4-->Output
 ```
 ## Prerequisites
 
