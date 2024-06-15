@@ -5,6 +5,12 @@ This is the term assignment for the Artificial Intelligence (COMS7044A) module. 
 
 This repository contains code for solving the 15-Puzzle problem using the Neural Network Weighted Upperbound Nearest Neighbor (NN-WUNN) heuristic combined with the Iterative Deepening A* (IDA*) search algorithm.
 
+## How this works
+A flow chart depicting the process.
+
+#Mermaid
+'''mermaid
+
 ## Prerequisites
 
 Before running the solver, ensure you have the following prerequisites installed:
