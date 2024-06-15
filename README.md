@@ -20,10 +20,6 @@ Algorithm4["`LearnHeuristicPrac`"]
 FirstBlock --> Algorithm3 
 Algorithm3 --> Algorithm4
 Algorithm4 --> Training of NNs
-KorTasks --> Algorithm4
-
-
-
 ```
 ## Prerequisites
 
