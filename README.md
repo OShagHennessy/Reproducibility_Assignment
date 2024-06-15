@@ -12,19 +12,17 @@ graph LR;
 
 FirstBlock["`**Set-Up**
 15-PuzzleEnvironment
-Neural Networks-->FFNN
-Neural Networks-->WUNN(Bayesian Network)
 Search Algorithm (IDA*)`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
+
 subgraph **Set-Up**
 15-PuzzleEnvironment --> Neural Networks--> Search Algorithm (IDA*)
 FFNN --> Neural Networks
 WUNN(Bayesian Network)--> Neural Networks
 end
-
-FirstBlock --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
+Search Algorithm (IDA*) --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 ```
 ## Prerequisites
 
