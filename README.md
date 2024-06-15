@@ -18,7 +18,7 @@ Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
 
-FirstBlock --> Algorithm3 --> Algorithm4 --> TrainingofNNs
+FirstBlock --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs
 ```
 ## Prerequisites
 
