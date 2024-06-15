@@ -7,11 +7,11 @@ This repository contains code for solving the 15-Puzzle problem using the Neural
 
 ## How this works
 A flow chart depicting the process.
-'''
+```mermaid
 graph TD;
 
 A-->H;
-'''
+```
 ## Prerequisites
 
 Before running the solver, ensure you have the following prerequisites installed:
