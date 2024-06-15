@@ -15,7 +15,7 @@ FirstBlock["`**Set-Up**
 Neural Networks
 Search Algorithm`"]
 Algorithm3["`GenerateTaskPrac`"]
-Algorithm4[`"LearnHeuristicPrac`"]
+Algorithm4["`LearnHeuristicPrac`"]
 FirstBlock-->Algorithm3-->Algorithm4
 
 ```
