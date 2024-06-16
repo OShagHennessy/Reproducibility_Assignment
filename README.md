@@ -13,7 +13,7 @@ A flow chart depicting the process.
 flowchart LR
 Algorithm3[GenerateTaskPrac]
 Algorithm4[LearnHeuristicPrac]
-Training NNs[Training NNs]
+TrainingNNs[Training NNs]
 Kor_Tasks[Kor Tasks]
 Output[Output]
 Setting Up --> Algorithm3 
