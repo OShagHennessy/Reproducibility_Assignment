@@ -10,9 +10,7 @@ A flow chart depicting the process.
 ```mermaid
 graph LR;
 
-FirstBlock["`**Set-Up**
-15-PuzzleEnvironment
-Search Algorithm (IDA*)`"]
+
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
