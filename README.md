@@ -19,7 +19,7 @@ Output["Output"]
 Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 
 subgraph three
-15-Puzzle Environment --> Neural Networks
+15-Puzzle Environment --> Neural Networks --> Search Algorithm
 end
 ```
 ## Prerequisites
