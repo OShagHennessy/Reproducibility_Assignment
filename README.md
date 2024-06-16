@@ -13,6 +13,9 @@ graph LR;
 FirstBlock["`**Set-Up**
 15-PuzzleEnvironment
 Search Algorithm (IDA*)`"]
+subgraph **Set-Up**
+15-PuzzleEnvironment --> Neural Networks --> Search Algorithm (IDA*)
+end
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
