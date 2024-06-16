@@ -20,10 +20,6 @@ KorTasks["KorTasks"]
 Output["Output"]
 
 Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
-
-subgraph **Set Up**
-15-PuzzleEnvironment --> Neural Networks --> Search Algorithm (IDA*)
-end
 ```
 ## Prerequisites
 
