@@ -12,8 +12,7 @@ A flow chart depicting the process.
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
 subgraph "One"
-  a("`The **cat**
-  in the hat`") -- "edge label" --> b{{"`The **dog** in the hog`"}}
+  a("`15-Puzzle Environment`") --> b{{"`Neural Networks`"}} --> c{{"`Search Algorithm (IDA*)`"}}
 end
 ```
 ## Prerequisites
