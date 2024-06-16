@@ -19,7 +19,7 @@ Algorithm4[LearnHeuristicPrac]
 Training NNs[Training NNs]
 Kor_Tasks[Kor Tasks]
 Output[Output]
-c --> Algorithm3 --> Algorithm 4 --> Training NNs --> Kor_Tasks --> Output 
+c --> Algorithm3 
 ```
 ## Prerequisites
 
