@@ -22,6 +22,13 @@ Output["Output"]
 
 FirstBlock --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 
+
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart LR
+subgraph "One"
+  a("`The **cat**
+  in the hat`") -- "edge label" --> b{{"`The **dog** in the hog`"}}
+end
 ```
 ## Prerequisites
 
