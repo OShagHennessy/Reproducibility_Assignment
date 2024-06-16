@@ -11,15 +11,16 @@ A flow chart depicting the process.
 
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
-subgraph "Setting Up"
-  a("`15-Puzzle Environment`") --> b{{"`Neural Networks`"}} --> c{{"`Search Algorithm (IDA*)`"}}
-end
 Algorithm3[GenerateTaskPrac]
 Algorithm4[LearnHeuristicPrac]
 Training NNs[Training NNs]
 Kor_Tasks[Kor Tasks]
 Output[Output]
 c --> Algorithm3 
+subgraph "Setting Up"
+  a("`15-Puzzle Environment`") --> b{{"`Neural Networks`"}} --> c{{"`Search Algorithm (IDA*)`"}}
+end
+
 ```
 ## Prerequisites
 
