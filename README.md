@@ -11,7 +11,7 @@ A flow chart depicting the process.
 
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
-subgraph "One"
+subgraph "Setting Up"
   a("`15-Puzzle Environment`") --> b{{"`Neural Networks`"}} --> c{{"`Search Algorithm (IDA*)`"}}
 end
 ```
