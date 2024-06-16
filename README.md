@@ -10,20 +10,26 @@ A flow chart depicting the process.
 ```mermaid
 graph LR;
 
-
+FirstBlock["`**Set-Up**
+15-PuzzleEnvironment
+Search Algorithm (IDA*)`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
+KorTasks["KorTasks"]
+Output["Output"]
 
-Search Algorithm (IDA*) --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously with LearnHeuristicPrac--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
-subgraph **Set-Up**
+Search Algorithm (IDA*) --> Algorithm3 --> Algorithm4
+Algorithm4 --NNs are trained simultaneously--> TrainingofNNs
+TrainingofNNs --> KorTasks --> Algorithm4 --> Output
+subgraph **Set Up**
 15-PuzzleEnvironment --> Neural Networks --> Search Algorithm (IDA*)
 end
 ```
 ## Prerequisites
 
 Before running the solver, ensure you have the following prerequisites installed:
-- Python 3.x
+- Python 3
 - pip (Python package manager)
 - NumPy
 - TensorFlow
