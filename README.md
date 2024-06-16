@@ -12,6 +12,7 @@ graph LR;
 
 FirstBlock["`**Set-Up**
 15-PuzzleEnvironment
+Neural Networks
 Search Algorithm (IDA*)`"]
 
 Algorithm3["`GenerateTaskPrac`"]
