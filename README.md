@@ -8,12 +8,7 @@ This repository contains code for solving the 15-Puzzle problem using the Neural
 ## How this works
 A flow chart depicting the process.
 ```mermaid
-graph LR;
-
-FirstBlock["`**Set-Up**
-15-PuzzleEnvironment
-Neural Networks
-Search Algorithm (IDA*)`"]
+flowchart LR;
 
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
@@ -23,8 +18,8 @@ Output["Output"]
 
 Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 
-subgraph **setup**
-15-PuzzleEnvironment --> Neural Networks --> Search Algorithm (IDA*)
+subgraph three
+15-Puzzle Environment --> Neural Networks
 ```
 ## Prerequisites
 
