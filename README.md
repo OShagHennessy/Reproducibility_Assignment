@@ -11,9 +11,9 @@ A flow chart depicting the process.
 flowchart LR;
 
 FirstBlock["`**Things To Set-Up**
-1. 15-Puzzle Environment
-2. Neural Networks
-3. Search Algorithm (IDA*)`"]
+15-Puzzle Environment
+Neural Networks
+Search Algorithm (IDA*)`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
