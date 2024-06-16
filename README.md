@@ -20,6 +20,7 @@ Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> 
 
 subgraph three
 15-Puzzle Environment --> Neural Networks
+end
 ```
 ## Prerequisites
 
