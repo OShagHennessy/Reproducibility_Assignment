@@ -10,17 +10,17 @@ A flow chart depicting the process.
 ```mermaid
 flowchart LR;
 
-FirstBlock["`**Things to set-up**
-15-Puzzle Environment
-Neural Networks
-Search Algorithm (IDA*)`"]
+FirstBlock["`**Things To Set-Up**
+1. 15-Puzzle Environment
+2. Neural Networks
+3. Search Algorithm (IDA*)`"]
 Algorithm3["`GenerateTaskPrac`"]
 Algorithm4["`LearnHeuristicPrac`"]
 TrainingofNNs["`Training of NNs`"]
 KorTasks["KorTasks"]
 Output["Output"]
 
-Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
+FirstBlock --> Algorithm3 --> Algorithm4 --NNs are trained simultaneously--> TrainingofNNs --> KorTasks --> Algorithm4 --> Output
 
 ```
 ## Prerequisites
