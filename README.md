@@ -16,8 +16,8 @@ Algorithm4[LearnHeuristicPrac]
 TrainingNNs[Training NNs]
 Kor_Tasks[Kor Tasks]
 Output[Output]
-S --> Algorithm3 --> Algorithm4 --Networks trained within LearnHeuristicPrac--> TrainingNNs --> Kor_Tasks --> Algorithm4 --> Output
-subgraph "S"
+Set-Up --> Algorithm3 --> Algorithm4 --Networks trained within LearnHeuristicPrac--> TrainingNNs --> Kor_Tasks --> Algorithm4 --> Output
+subgraph "Set-Up"
   a{{"`15-Puzzle Environment`"}} --> b{{"`Neural Networks`"}} --> c{{"`Search Algorithm (IDA*)`"}}
 end
 
