@@ -23,6 +23,7 @@ subgraph "Set-Up"
 end
 
 ```
+Description: Firstly, we need to set-up the 15-Puzzle environment, then create the two neural networks and set-up the IDA* search algorithm. We need to integrate code from the set-up into creating the GenerateTaskPrac algorithm. The tasks that are generated from the algorithm are taken to LearnHeursticPrac (Created using elements from the set-up as well) to be solved. The training of the neural networks happen within LearnHeuristicPrac. After training, the [standard 100 15-puzzle benchmark tasks](https://cse.sc.edu/~mgv/csce580f11/gradPres/korf_IDAStar_1985.pdf) are fed into LearnHeuristic and we obtain the output.
 ## Prerequisites
 
 Before running the solver, ensure you have the following prerequisites installed:
