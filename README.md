@@ -14,7 +14,8 @@ flowchart LR
 Algorithm3[GenerateTaskPrac]
 Algorithm4[LearnHeuristicPrac]
 TrainingNNs[Training NNs]
-Kor_Tasks[Kor Tasks]
+Kor_Tasks[The Standard 100 15-puzzle
+Benchmark Tasks]
 Output[Output]
 Set-Up --> Algorithm3 ----> Algorithm4 --Networks trained within LearnHeuristicPrac--> TrainingNNs --> Kor_Tasks --> Algorithm4 --> Output
 subgraph "Set-Up"
